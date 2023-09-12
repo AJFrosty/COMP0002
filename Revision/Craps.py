@@ -27,7 +27,7 @@ if i == 1:
             print("You Win!")
 
         while newSum != sum and newSum != 7:
-            j = int(input("Input a 1 if you're ready: "))
+            j = int(input("Type a integer to show that you're read: "))
             new1 = random.randint(1,6)
             new2 = random.randint(1,6)
             newSum = new1 + new2
