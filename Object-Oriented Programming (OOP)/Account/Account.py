@@ -30,10 +30,10 @@ class Account:
         interest = self.__balance * monthly
         return interest
     
-    def Withdraw(self, ammount):
+    def withdraw(self, ammount):
         if ammount <= self.__balance:
             newBal = self.__balance - ammount
             self.__balance = newBal
 
-    def Deposit(self, ammount):
+    def deposit(self, ammount):
         self.__balance += ammount
