@@ -10,4 +10,4 @@ if start > -1:
         stopped = t.time()
         time = StopWatch(begin, stopped)
 
-print(f"Start time is: {time.getStartTime()} \nEnd time is: {time.getEndTime()} \nElapsed Time: {time.getElapsedTime()} ms")
+print(f"Start time is: {time.getStartTime()} \nEnd time is: {time.getEndTime()} \nElapsed Time: {int(time.getElapsedTime())} ms")
