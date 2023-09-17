@@ -12,6 +12,10 @@ Welcome to my Computer Science journey at The University of the West Indies! Thi
 
 - The Object Oriented Programming (OOP) folder contains my assignments, code samples, and projects related to the OOP paradigm. Here, I apply OOP principles to solve real-world problems and build software applications.
 
+### 3. [Data Structures](./Data%20Structures) 📊
+
+- In this folder, I explore data structures such as arrays, linked lists, stacks, and queues. I implement these data structures in python and use them in algorithms and applications.
+
 ## Notes 📝
 
 - My notes, lecture summaries, and useful resources are stored in the respective topic folders for easy access and reference.
