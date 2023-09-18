@@ -22,9 +22,7 @@ class Stack:
         return len(self.__stack) == 0
     
     def isFull(self):
-        if len(self.__stack) == self.__length:
-            return True
-        return False
+        return len(self.__stack) == self.__length
     
     def search(self, item):
         return item in self.__stack
