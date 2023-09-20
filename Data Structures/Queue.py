@@ -1,5 +1,5 @@
 class Queue:
-    def __init__(self, max = None) -> None:
+    def __init__(self, max = 100):
         self.__queue = []
         self.__length = max
 
@@ -26,5 +26,3 @@ class Queue:
     
     def search(self, item):
         return item in self.__queue
-    
-

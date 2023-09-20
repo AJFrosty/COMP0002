@@ -10,7 +10,7 @@ class Stack:
             return deleted
         print("Error: No Element is in the stack!")
     
-    def push(self,item):
+    def push(self,item):        
         self.__stack.append(item)
     
     def peek(self):
