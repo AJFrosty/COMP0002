@@ -4,7 +4,10 @@ class Queue:
         self.__length = max
 
     def enqueue(self, item=''):
-        self.__queue.append(item)
+        if not self.isFull():
+            self.__queue.append(item)
+        else:
+            print("Error! Stack is Full")
     
     def dequeue(self):
         if not self.isEmpty():

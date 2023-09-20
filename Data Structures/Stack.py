@@ -10,8 +10,11 @@ class Stack:
             return deleted
         print("Error: No Element is in the stack!")
     
-    def push(self,item):        
-        self.__stack.append(item)
+    def push(self,item):
+        if not self.isFull():        
+            self.__stack.append(item)
+        else:
+            print("Error: Stack is FULL!")
     
     def peek(self):
         if not self.isEmpty():
