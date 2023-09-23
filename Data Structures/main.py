@@ -4,7 +4,7 @@ from Stack import Stack
 stack = Stack(5)
 queue = Queue(5)
 
-for i in range(1,7):
+for i in range(1,6):
     stack.push(i**2)
     queue.enqueue(str(i**3))
 

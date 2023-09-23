@@ -3,7 +3,7 @@ class Queue:
         self.__queue = []
         self.__length = max
 
-    def enqueue(self, item=''):
+    def enqueue(self, item):
         if not self.isFull():
             self.__queue.append(item)
         else:
