@@ -1,5 +1,3 @@
-#Solve should be print statements! Fix UML Diagrams for the return type for this AND for WEIGHT Reading Int value!!
-
 class QuadraticEquationSolver:
     def __init__(self, a: float, b: float, c: float):
         self.__a = a
