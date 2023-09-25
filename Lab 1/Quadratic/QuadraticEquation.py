@@ -1,3 +1,5 @@
+#Solve should be print statements! Fix UML Diagrams for the return type for this AND for WEIGHT Reading Int value!!
+
 class QuadraticEquationSolver:
     def __init__(self, a: float, b: float, c: float):
         self.__a = a
@@ -6,13 +8,14 @@ class QuadraticEquationSolver:
 
     def solve(self):
         if self.get_discriminant() > 0:
-            root1 = ((-1 * self.__b) + self.get_discriminant()) / (2 * self.__a)
-            root2 = ((-1 * self.__b) - self.get_discriminant()) / (2 * self.__a)
-            return root1, root2
+            root1 = ((-1 * self.__b) + (self.get_discriminant())**0.5) / (2 * self.__a)
+            root2 = ((-1 * self.__b) - (self.get_discriminant())**0.5) / (2 * self.__a)
+            print(f"The roots are: {root1} and {root2}") 
         elif self.get_discriminant() == 0:
             root1 = ((-1 * self.__b) + self.get_discriminant()) / (2 * self.__a)
-            return root1
-        return "NO REAL SOLUTIONS"
+            print(f"The root is: {root1}")
+        else:
+            print("NO REAL SOLUTIONS")
 
     def get_discriminant(self):
         return (self.__b ** 2) - (4 * self.__a * self.__c)

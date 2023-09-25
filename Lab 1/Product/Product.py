@@ -30,4 +30,3 @@ class Product:
     
     def display_product_info(self):
         print(f"ID: {self.__product_id} \nName: {self.__product_name} \nDescription: {self.__product_description} \nPrice: ${self.__product_price} \nIn Stock: {self.__product_in_stock}")
-    
