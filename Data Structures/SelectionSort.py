@@ -6,17 +6,15 @@ def swap(list,a,b):
     list[b] = store
 
 def getSmallest(list,a,b):
-    if list[a] < list[b]:
-        return True
-    return False
+    smallest = a
+    for i in range(a,b):
+        if list[smallest] > list[i]:
+            smallest = i
+    return smallest
 
 def selectionSort(list):
-    for i in range(len(list)):
-        for j in range(len(list)):
-            if getSmallest(list,i,j):
-                swap(list,i,j)
+        for i in range(len(list)-1):
+            swap(list,i,getSmallest(list,i,len(list)))
 
 selectionSort(numbers)
 print(numbers)
-            
-
