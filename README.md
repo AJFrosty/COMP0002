@@ -16,6 +16,15 @@ Welcome to my Computer Science journey at The University of the West Indies! Thi
 
 - In this folder, I explore data structures such as arrays, linked lists, stacks, and queues. I implement these data structures in python and use them in algorithms and applications.
 
+### 4. [Lab 1](./Lab%201) 🧬
+
+- In this folder, I completed Lab #1 of my Computer Science Course which focuses on Classes and UML Diagrams.
+
+### 5. [Lab 2](./Lab%202) 🌡️
+
+- In this folder, I finished Lab #2 of my Computer Science Course which focuses on Abstract Data Typrd (ADTS) such as Linked Lists, Queues and Stacks.
+
+
 ## Notes 📝
 
 - My notes, lecture summaries, and useful resources are stored in the respective topic folders for easy access and reference.
