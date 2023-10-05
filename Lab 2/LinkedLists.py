@@ -15,18 +15,15 @@ class LinkedList:
     
     def delete(self):
         if self.head.next == None:
-            return "Empty Linked List!"
+            print("Empty Linked List!")
         curr_node = self.head
         prev_node = None
-        while curr_node.next is not None:
+        while curr_node.next!= None:
             prev_node = curr_node
             curr_node = curr_node.next
-        if prev_node is not None:
-            prev_node.next = None
-            return curr_node.data
-        else:
-            self.head.next = None
-            return curr_node.data
+        prev_node != None
+        prev_node.next = None
+        return curr_node.data
 
     def printList(self):
         curr_node = self.head.next
