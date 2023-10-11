@@ -7,7 +7,7 @@ if not os.path.isfile(file):
 def scoreInfo(file):
     with open(file, "r") as scores:
         content = scores.readlines()
-    if len(content) == 0:
+    if len(content) <= 1:
         raise ValueError("There needs to be atleast 2 scores in the file!")
     for i in range(len(content)):
         content[i] = float(content[i])
