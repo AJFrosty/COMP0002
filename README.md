@@ -24,6 +24,10 @@ Welcome to my Computer Science journey at The University of the West Indies! Thi
 
 - In this folder, I finished Lab #2 of my Computer Science Course which focuses on Abstract Data Typrd (ADTS) such as Linked Lists, Queues and Stacks.
 
+### 6. [Miscellaneous Content](./Miscellaneous) 📠
+
+- In this folder, I focused on operations with files in Python as well as Exceptions in Python.
+
 
 ## Notes 📝
 
