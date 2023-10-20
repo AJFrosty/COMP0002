@@ -1,8 +1,8 @@
 import os.path
 
 file = input("Enter File Name/Path: ")
-if not os.path.isfile(file):
-    raise NameError(f"The file: {file} does not exist!")
+while not os.path.isfile(file):
+    file = input("Enter File Name/Path: ")
 
 def scoreInfo(file):
     with open(file, "r") as scores:

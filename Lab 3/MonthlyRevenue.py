@@ -11,11 +11,11 @@ def calculateMonthlyTotal(info: list, dates:list, index):
 
 def monthleyRevenue(info: tuple):
     Dates = [x for x in range(len(info))]
+    uniqueDates = []
     output = []
     for i in range(len(info)):
         string = info[i][0][:7]
         Dates[i] = string
-    uniqueDates = []
     for item in Dates:
         if item not in uniqueDates:
             uniqueDates.append(item)
