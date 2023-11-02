@@ -1,13 +1,5 @@
 file = "todo.dat"
 
-#Choice Exist Breaking Erroneus Exit-
-try:
-    choice = int(input("0. Quit\n1. Add Item to To-Do List\n2. Remove item from To-Do List\n3. View To-Do List\n"))
-    while choice < 0 or choice > 3:
-        choice = int(input("0. Quit\n1. Add Item to To-Do List\n2. Remove item from To-Do List\n3. View To-Do List\n"))
-except:
-    print("Please read instructions careful and run the program again!")
-
 def addToList(file):
     item = input("What item do you want added: ")
     with open(file, "r") as toDoList:
@@ -16,10 +8,12 @@ def addToList(file):
         modifiedList.write(f"{len(content)+1}. {item}\n")
     print("\n--------------\nItem Added\n--------------\n")
 
+
 def deleteFromList(file):
     x = []
     with open(file, "r") as delete:
         content = delete.readlines()
+    
     #Checks if any items to delete
     if len(content) == 0:
         print("\n--------------\nNo Item To Delete\n--------------\n")
@@ -64,7 +58,7 @@ while True:
     try:
         choice = int(input("0. Quit\n1. Add Task to To-Do List\n2. Remove Task from To-Do List\n3. View To-Do List\nEnter your choice: "))
         if choice == 0:
-            print("Exiting.")
+            print("\n--------------\nExiting\n--------------\n")
             break
         elif choice == 1:
             addToList(file)
@@ -74,7 +68,7 @@ while True:
             showList(file)
         #Number other than 0-3
         else:
-            print("Invalid choice. Please select a valid option (0-3).")
-    #Error for letters or characters
+            print("\n--------------\nInvalid choice. Please select a valid option (0-3).\n--------------\n")
+    #Error for a letter
     except ValueError:
-        print("Please enter a valid numeric choice.")
+        print("\n--------------\nPlease enter a NUMBER!!!\n--------------\n")
