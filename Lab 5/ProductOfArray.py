@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/product-of-array-except-self/
 class Solution(object):
     def productExceptSelf(self, nums):
         pred = [1]*len(nums)

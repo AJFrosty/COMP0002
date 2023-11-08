@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/jump-game/submissions/
 class Solution(object):
     def canJump(self, nums):
         furthest = 0
