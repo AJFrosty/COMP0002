@@ -24,15 +24,15 @@ Welcome to my Computer Science journey at The University of the West Indies! Thi
 
 - In this folder, I finished Lab #2 of my Computer Science Course which focuses on Abstract Data Typrd (ADTS) such as Linked Lists, Queues and Stacks.
 
-### 6. [Lab 3](./Lab%203) 🌡️
+### 6. [Lab 3](./Lab%203) 📋
 
 - In this folder, I finished Lab #3 of my Computer Science Course which focuses on Data Types in Python (Lists/Dictionaries/Tuples).
 
-### 7. [Lab 4](./Lab%204) 🌡️
+### 7. [Lab 4](./Lab%204) 🧫
 
 - In this folder, I finished Lab #4 of my Computer Science Course which focuses on Reading and Writing Files in Python.
 
-### 8. [Lab 5](./Lab%205) 🌡️
+### 8. [Lab 5](./Lab%205) 📡
 
 - In this folder, I finished Lab #5 of my Computer Science Course which focuses on Solving Leetcode Challenges in Python.
 
